@@ -9,3 +9,4 @@ subgrounds==1.6.0
 web3==6.4.0
 pycoingecko==3.1.0
 numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
