@@ -1,11 +1,19 @@
 prefect==2.11.1
 prefect-aws==0.3.1
 s3fs==2023.5.0
-requests==2.31.0
+requests==2.32.2
 flake8==6.0.0
-pyarrow==12.0.0
+pyarrow==14.0.1
 python-dotenv==1.0.0
 subgrounds==1.6.0
 web3==6.4.0
 pycoingecko==3.1.0
 numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+eth-abi>=5.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fastapi>=0.109.1 # not directly required, pinned by Snyk to avoid a vulnerability
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
