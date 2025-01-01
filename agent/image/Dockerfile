@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.10-slim AS prod
+FROM --platform=linux/amd64 python:3.14.0a3-slim AS prod
 
 # git is required to pull the flows repostitory
 RUN apt-get update
